@@ -1,0 +1,77 @@
+{
+    "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+    "project": {
+        "version": "0.1.0",
+        "name": "reflex-frontend-dashboard"
+    },
+    "apps": [{
+        "root": "src",
+        "outDir": "dist",
+        "assets": [
+            "assets",
+            "favicon.ico"
+        ],
+        "index": "index.html",
+        "main": "main.ts",
+        "polyfills": "polyfills.ts",
+        "test": "test.ts",
+        "testTsconfig": "tsconfig.spec.json",
+        "tsconfig": "tsconfig.app.json",
+        "prefix": "reflex",
+        "mobile": false,
+        "styles": [
+            "styles.scss",
+            "../node_modules/font-awesome/css/font-awesome.css"
+        ],
+        "scripts": [
+            "../node_modules/jquery/dist/jquery.min.js"
+        ],
+        "environmentSource": "environments/environment.ts",
+        "environments": {
+            "dev": "environments/environment.ts",
+            "integration": "environments/environment.integration.ts",
+            "prod": "environments/environment.prod.ts",
+            "local": "environments/environment.local.ts"
+        }
+    }],
+    "addons": [
+        "../node_modules/font-awesome/fonts/*.+(otf|eot|svg|ttf|woff|woff2)"
+    ],
+    "packages": [],
+    "e2e": {
+        "protractor": {
+            "config": "./protractor.conf.js"
+        }
+    },
+    "lint": [{
+            "project": "src/tsconfig.app.json"
+        },
+        {
+            "project": "src/tsconfig.spec.json"
+        },
+        {
+            "project": "e2e/tsconfig.e2e.json"
+        }
+    ],
+    "test": {
+        "karma": {
+            "config": "./karma.conf.js"
+        }
+    },
+    "defaults": {
+        "styleExt": "scss",
+        "prefixInterfaces": false,
+        "inline": {
+            "style": false,
+            "template": false
+        },
+        "spec": {
+            "class": false,
+            "component": true,
+            "directive": true,
+            "module": false,
+            "pipe": true,
+            "service": true
+        }
+    }
+}

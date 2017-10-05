@@ -1,0 +1,89 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js -v
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\alex.beugnet\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\alex.beugnet\AppData\Roaming\npm;C:\Users\alex.beugnet\AppData\Local\Yarn\bin
+
+Yarn version: 
+  0.24.6
+
+Node version: 
+  6.11.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+      "name": "reflex-ngx-frontend",
+      "version": "0.1.0",
+      "license": "MIT",
+      "angular-cli": {},
+      "scripts": {
+          "ng": "ng",
+          "start": "ng serve",
+          "build": "ng build",
+          "test": "ng test",
+          "lint": "ng lint",
+          "pree2e": "webdriver-manager update",
+          "e2e": "ng e2e"
+      },
+      "private": true,
+      "dependencies": {
+          "@angular/animations": "^4.0.1",
+          "@angular/common": "^4.0.1",
+          "@angular/compiler": "^4.0.1",
+          "@angular/core": "^4.0.1",
+          "@angular/flex-layout": "2.0.0-beta.8",
+          "@angular/forms": "^4.0.1",
+          "@angular/http": "^4.0.1",
+          "@angular/material": "2.0.0-beta.3",
+          "@angular/platform-browser": "^4.0.1",
+          "@angular/platform-browser-dynamic": "^4.0.1",
+          "@angular/platform-server": "^4.0.1",
+          "@angular/router": "^4.0.1",
+          "angular2-fontawesome": "^0.9.0",
+          "angular2-jwt": "0.2.0",
+          "chart.js": "^2.5.0",
+          "core-js": "^2.4.1",
+          "file-saver": "^1.3.3",
+          "font-awesome": "^4.7.0",
+          "rxjs": "^5.1.0",
+          "zone.js": "^0.8.4"
+      },
+      "devDependencies": {
+          "@angular/cli": "1.0.0",
+          "@angular/compiler-cli": "^4.0.1",
+          "@types/chartjs": "0.0.29",
+          "@types/google-maps": "^3.2.0",
+          "@types/hammerjs": "^2.0.33",
+          "@types/jasmine": "2.5.38",
+          "@types/node": "~6.0.60",
+          "codelyzer": "~2.0.0",
+          "jasmine-core": "~2.5.2",
+          "jasmine-spec-reporter": "~3.2.0",
+          "karma": "~1.4.1",
+          "karma-chrome-launcher": "~2.0.0",
+          "karma-cli": "~1.0.1",
+          "karma-coverage-istanbul-reporter": "^0.2.0",
+          "karma-jasmine": "~1.1.0",
+          "karma-jasmine-html-reporter": "^0.2.2",
+          "karma-phantomjs-launcher": "^1.0.0",
+          "protractor": "~5.1.0",
+          "ts-node": "~2.0.0",
+          "tslint": "~4.5.0",
+          "typescript": "^2.2.2",
+          "webdriver-manager": "10.2.5"
+      },
+      "author": "ABT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: ENOENT: no such file or directory, chmod 'D:\Git\reflex-ngx-frontend\node_modules\.bin\webdriver-manager'
+      at Error (native)
